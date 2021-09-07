@@ -1,0 +1,24 @@
+# This should only be executables which we compile, according to the README. Don't commit them. 
+bin/** 
+
+# Fortran compiled files. Hopefully nothing else has this extension. 
+**.o 
+
+# Fortran compiled files. Hopefully nothing else has this extension. 
+**.a 
+
+
+# Things I generally don't want to commit
+**.DS_Store
+**.m~
+**.zip
+**.png
+**.jpg
+**.eps
+**.pdf
+**.svg
+**.tif
+**.html
+**.mat
+**.fig
+**.asv
