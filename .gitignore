@@ -1,3 +1,6 @@
+# Just junk
+junk/**
+
 # This should only be executables which we compile, according to the README. Don't commit them. 
 bin/** 
 
