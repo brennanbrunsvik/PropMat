@@ -35,7 +35,7 @@ synth.out2
 !
 #
 echo "Done source convolution, now writing to sac"
-./saccpt <<!
+$xdir/saccpt <<!
 test.$AZM.$ANGL
 0
 !
