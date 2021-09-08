@@ -5,7 +5,7 @@
 F77 = gfortran
 FFLAGS = -g
 OPTFLAGS = -O
-SACLIBRARY = /usr/local/sac/lib/libsac.a
+SACLIBRARY = /usr/local/sac/lib/sacio.a
 # TODOPATH
 BINDIR = ../bin
 
