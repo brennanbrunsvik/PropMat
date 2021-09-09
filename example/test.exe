@@ -23,7 +23,8 @@ echo "Done propagation, now convolving source"
 $xdir/sourc1 <<!
 test.$AZM.$ANGL
 synth.out1
-synth.out2
+synth.out2 
+imag.outBRENNAN
 1 0 0
 5.
 0.

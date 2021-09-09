@@ -2,7 +2,9 @@ c------------------------------------------------------------
 c     convert output from BYK's programs to SAC format
 c------------------------------------------------------------
 c bb2021.09.07: nn(10) to nn(0:10) for compile error
-      dimension  y(5000), nn(0:10), x(1500)
+      dimension  y(10000), nn(0:10), x(4000)
+c bb2021.09.09 changed y dimension from 5000 to larger 
+c bb2021.09.09 changed x dimension from 1500 to larger
       character*32 infil, outfil1, outfil2, outfil3
 
       print *, ' input data file =?'
