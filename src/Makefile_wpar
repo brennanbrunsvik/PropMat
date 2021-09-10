@@ -3,9 +3,8 @@
 
 #F77 = f77
 F77 = gfortran
-FFLAGS = -g -fcheck=bounds
-#bb2021.09.09 I added -fcheck=bounds to help figure out where 
-#array allocations went wrong
+FFLAGS = -g
+#FFLAGS = -fcheck=all, -ffpe-trap=invalid,zero,overflow -g -Wall -Wextra -Werror -pedantic
 OPTFLAGS = -O
 SACLIBRARY = /usr/local/sac/lib/sacio.a 
 # TODOPATH. bb2021.09.08 - SACLIBRARY was incorrectly saclib.a. 
