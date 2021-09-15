@@ -37,5 +37,12 @@ test.$AZM.$ANGL
 0
 !
 
+echo "Comparing test.azmuth.angle output and target output files. Difference is: "
+diff test.$AZM.$ANGL target_output/test.$AZM.$ANGL
+echo "End comparison of target output and output file. "
+
 end
+
+# diff synth.out1 target_output/synth.out1 # Not sure if these files need to be the same... bb2021.09.15
+
 echo OK

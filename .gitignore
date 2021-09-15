@@ -25,3 +25,18 @@ bin/**
 **.mat
 **.fig
 **.asv
+
+
+# Some example output files we don't want to commit. 
+example/**.out
+example/1
+example/imag.out
+example/synth.out
+example/synth.out1
+example/test.45.20
+example/test.45.20.r
+example/test.45.20.t
+example/test.45.20.z
+example/synth.out
+example/synth.out1
+example/test.45.20
