@@ -10,7 +10,7 @@ SACLIBRARY = /usr/local/sac/lib/sacio.a
 # TODOPATH. bb2021.09.08 - SACLIBRARY was incorrectly saclib.a. 
 BINDIR = ../bin
 
-allouts = synth sourc1 sourc1.gauss 
+allouts = synth sourc1 sourc1.gauss saccpt
 
 #----------------------------------
 #----------------------------------
@@ -50,6 +50,10 @@ sourc1.gauss.o:	sourc1.gauss.f
 #------------------------
 fork.fold.o:	fork.fold.f
 		$(F77) -g -fopenmp -O -c -w fork.fold.f
+
+#------------------------
+saccpt:	saccpt.f
+		$(F77) $(FFLAGS) -fopenmp -O -o $(BINDIR)/saccpt saccpt.f $(SACLIBRARY) -ldl
 
 #------------------------
 clean:
