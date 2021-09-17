@@ -40,6 +40,7 @@ test.$AZM.$ANGL
 echo "Comparing test.azmuth.angle output and target output files. Difference is: "
 diff test.$AZM.$ANGL target_output/test.$AZM.$ANGL
 echo "End comparison of target output and output file. "
+echo "If they are the same, either PropMat is good, or you didn't make new files."
 
 end
 
