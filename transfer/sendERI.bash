@@ -5,4 +5,4 @@
 rsync -ahv \
 --exclude-from='exclude_PropMat.txt' \
 ../ \
-brunsvik@tong.eri.ucsb.edu:~/repositories/Peoples_codes/PropMat
+brunsvik@tong.eri.ucsb.edu:~/Documents/repositories/Peoples_codes/PropMat
