@@ -1,8 +1,9 @@
 #/bin/bash 
 # Run this from the transfer folder. 
-# TODO should make send destination a variable that we choose when we run the script. 
+
+computer=${1:-brunsvik@tong.eri.ucsb.edu} # First argument is the computer you will send to. 
 
 rsync -ahv \
 --exclude-from='exclude_PropMat.txt' \
 ../ \
-brunsvik@tong.eri.ucsb.edu:~/Documents/repositories/Peoples_codes/PropMat
+$computer:~/Documents/repositories/Peoples_codes/PropMat
