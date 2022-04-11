@@ -269,6 +269,7 @@ c---------------------------------------------------------------------
       write(20,'(1x,''imaginary part of "u" "v" "w"'')')
       do 495 k=1,lx,8
   495 write(20,'(1x,i4,3e18.6)')k-1,aimag(u(k)),aimag(v(k)),aimag(w(k))
+      close(20)
 
 c---------------------------------------------------------------------
 c    output 3-cpts of synthetic seismograms for plotting.

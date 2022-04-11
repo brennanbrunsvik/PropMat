@@ -21,3 +21,4 @@ src_old/**
 **.mat
 **.fig
 **.asv
+./git/*
