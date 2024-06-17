@@ -4,8 +4,7 @@ First make the files. From the src folder, run
 
 To test that things are working properly, run the test file and see if output and target output files are the same. Navigate to example and run 
 > ./test.exe 
-
-This only does diff on test.45.20 file - I'm not sure if other files need to be compared (synth.out* are binary and I don't really know what they are). 
+This only does diff on test.45.20 file.
 
 An important problem is that if your traces are too long due to thick layers, then the predefined file sizes for traces may not be large enough. Once the end of a trace is reached, Fortran will simply overwrite the beginning of that trace with the remaining trace. 
 

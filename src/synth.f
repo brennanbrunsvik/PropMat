@@ -56,7 +56,7 @@ c     SIZE OF dm DETERMINES MAX NUMBER OF LAYERS -changed from 150 to 250 Petrus
 c------------- all involved with complex variables are real*4.
       real*4  ph,realpt,imagpt
 c  added at Ved's recommendation
-      real*8  q1, theta
+      real*8 q1, theta
 
 !$    include 'omp_lib.h'
 

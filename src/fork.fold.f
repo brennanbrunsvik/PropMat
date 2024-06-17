@@ -47,7 +47,7 @@ c       folding across the symmetry axis nq+1=nq1
 c   first variable (k=1) folds nowhere, starts from k=2
 c========================================================
       subroutine fold  (n,nq1,u)
-      complex u(1)   
+      complex u(4097)   
       np2=n+2
       do 820 k=2,nq1
   820 u(np2-k)=conjg(u(k))

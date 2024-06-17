@@ -6,12 +6,3 @@ make -f Makefile_wpar
 
 cd ../example 
 ./test.exe 
-
-# echo 'Starting making CADMINEOS.'
-# ./MAKEALL.bash 
-# echo 'Finished running make for CADMINEOS.' 
-
-# echo 'Starting test for CADMINEOS.'
-# cd test 
-# ./tst.exe 
-# echo 'Finished running test for CADMINEOS'
