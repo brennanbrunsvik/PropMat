@@ -1,15 +1,18 @@
-- bb2021.09.15 Summary of instructions
-First make the files. From the src folder, run 
+This code calculates seismic traces for an incident ray. Karen Fischer, at Brown University, was the primary developer of this code (not me!). 
+
+brb2021.09.15 Summary of instructions. First make the files. From the src folder, run 
 > make -f Makefile_wpar
 
 To test that things are working properly, run the test file and see if output and target output files are the same. Navigate to example and run 
 > ./test.exe 
+
 This only does diff on test.45.20 file.
 
 An important problem is that if your traces are too long due to thick layers, then the predefined file sizes for traces may not be large enough. Once the end of a trace is reached, Fortran will simply overwrite the beginning of that trace with the remaining trace. 
 
-- Original Readme
+Original Readme
 ********* February 2003, Karen Fischer ***************************
+
 This tar file contains source code and input files for four
 programs.  The first two generate propagator matrix synthetics
 using the methods of Keith and Crampin (1977) should be run in the 
